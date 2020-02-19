@@ -1,0 +1,77 @@
+{
+   "__id": 32,
+   "__updatedAt": "2020-02-11T21:44:16.155Z",
+   "__createdAt": "2020-02-11T21:44:16.155Z",
+   "__fechaLiquidacionFactura": null,
+   "__fechaCancelacion": null,
+   "cliente": {
+      "__id": 32,
+      "razonSocial": "Mekhi Von"
+   },
+   "canalVenta": {
+      "__id": 32,
+      "nombreCanalVenta": "Books"
+   },
+   "billNumber": "AA000000032",
+   "sucursal": "D'Amore LLC",
+   "vendedor": "Stuart Kris",
+   "apv": {
+      "__id": 32,
+      "vendedor": "Stuart Kris"
+   },
+   "at": "2019-04-16T20:25:16.538Z",
+   "status": "INVOICED",
+   "detail": [
+      {
+         "item": {
+            "__id": 32,
+            "__updatedAt": "2020-02-11T21:44:18.211Z",
+            "__createdAt": "2020-02-11T21:44:18.211Z",
+            "kind": "SERVICE",
+            "serialNumber": "q9dld64bz0",
+            "inventoryDate": "2019-04-16T20:25:16.538Z",
+            "brand": "NISSAN",
+            "model": "blue",
+            "descriptionModel": "Generic Concrete Pants",
+            "color": "green",
+            "price": 595,
+            "cost": 228,
+            "subsidy": 9794,
+            "ivaImporte": 30.72,
+            "utilidad": -324,
+            "importeTotal": -324,
+            "creditNote": 9122,
+            "houseCredit": 0,
+            "incentive": 0,
+            "caracteristicasAdicionales": [
+               {
+                  "__id": 156,
+                  "nombreCaracteristica": "CARLINE",
+                  "valorCaracteristica": "blue"
+               },
+               {
+                  "__id": 157,
+                  "nombreCaracteristica": "COLORINTERIOR",
+                  "valorCaracteristica": "green"
+               },
+               {
+                  "__id": 158,
+                  "nombreCaracteristica": "MODELOAÑO",
+                  "valorCaracteristica": "2020"
+               },
+               {
+                  "__id": 159,
+                  "nombreCaracteristica": "COLOREXTERIOR",
+                  "valorCaracteristica": "red"
+               },
+               {
+                  "__id": 160,
+                  "nombreCaracteristica": "UNIDADDESCRIPCION",
+                  "valorCaracteristica": "ivory"
+               }
+            ]
+         },
+         "times": 9
+      }
+   ]
+}

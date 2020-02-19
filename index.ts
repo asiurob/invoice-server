@@ -1,12 +1,10 @@
 //Dependencias
-import Server from "./classes/server"
+import Server from './classes/server'
 import bodyParser from 'body-parser'
 import cors from 'cors'
-import Database from "./classes/database"
+import Database from './classes/database'
 import fileUpload from 'express-fileupload'
-// Declaración de rutas
-import RolRoute from './routes/rol.route'
-import UserRoute from "./routes/user.route"
+import InvoiceRoute from './routes/invoice.route'
 
 
 //Declaraciones
@@ -22,15 +20,11 @@ server.app.use( fileUpload() )
 server.app.use( cors( { origin: true, credentials: true } ) )
 
 //Rutas
-server.app.use( '/roles', RolRoute )
-server.app.use( '/users', UserRoute )
-
-
+server.app.use('/invoice', InvoiceRoute )
 
 //Iniciar el servidor
 server.start( () => {
-    console.log( `Server running at ${ server.port } port` )
+    console.log( `Servidor iniciado en el puerto ${ server.port }` )
+    database.connect()
 })
 
-//Iniciar base de datos
-database.connect()

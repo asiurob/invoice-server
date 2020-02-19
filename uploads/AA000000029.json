@@ -1,0 +1,77 @@
+{
+   "__id": 29,
+   "__updatedAt": "2020-02-11T21:44:16.154Z",
+   "__createdAt": "2020-02-11T21:44:16.154Z",
+   "__fechaLiquidacionFactura": null,
+   "__fechaCancelacion": null,
+   "cliente": {
+      "__id": 29,
+      "razonSocial": "Patrick Murray"
+   },
+   "canalVenta": {
+      "__id": 29,
+      "nombreCanalVenta": "Shoes"
+   },
+   "billNumber": "AA000000029",
+   "sucursal": "Hermann - Pouros",
+   "vendedor": "Hipolito Kozey",
+   "apv": {
+      "__id": 29,
+      "vendedor": "Hipolito Kozey"
+   },
+   "at": "2019-11-16T02:34:35.443Z",
+   "status": "INVOICED",
+   "detail": [
+      {
+         "item": {
+            "__id": 29,
+            "__updatedAt": "2020-02-11T21:44:18.163Z",
+            "__createdAt": "2020-02-11T21:44:18.163Z",
+            "kind": "NEW_CAR",
+            "serialNumber": "35dsf17zdv",
+            "inventoryDate": "2019-11-16T02:34:35.443Z",
+            "brand": "NISSAN",
+            "model": "Refined Frozen Ball",
+            "descriptionModel": "Generic Frozen Chair",
+            "color": "2019",
+            "price": 798,
+            "cost": 183.5,
+            "subsidy": 8305,
+            "ivaImporte": 34.08,
+            "utilidad": 206.5,
+            "importeTotal": 206.5,
+            "creditNote": 6926,
+            "houseCredit": 0,
+            "incentive": 0,
+            "caracteristicasAdicionales": [
+               {
+                  "__id": 141,
+                  "nombreCaracteristica": "CARLINE",
+                  "valorCaracteristica": "Refined Frozen Ball"
+               },
+               {
+                  "__id": 142,
+                  "nombreCaracteristica": "COLORINTERIOR",
+                  "valorCaracteristica": "2019"
+               },
+               {
+                  "__id": 143,
+                  "nombreCaracteristica": "MODELOAÑO",
+                  "valorCaracteristica": "Licensed Granite Bacon"
+               },
+               {
+                  "__id": 144,
+                  "nombreCaracteristica": "COLOREXTERIOR",
+                  "valorCaracteristica": "Handcrafted Soft Mouse"
+               },
+               {
+                  "__id": 145,
+                  "nombreCaracteristica": "UNIDADDESCRIPCION",
+                  "valorCaracteristica": "2019"
+               }
+            ]
+         },
+         "times": 7
+      }
+   ]
+}

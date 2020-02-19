@@ -1,0 +1,77 @@
+{
+   "__id": 2,
+   "__updatedAt": "2020-02-11T21:44:16.153Z",
+   "__createdAt": "2020-02-11T21:44:16.153Z",
+   "__fechaLiquidacionFactura": null,
+   "__fechaCancelacion": null,
+   "cliente": {
+      "__id": 2,
+      "razonSocial": "Heaven Grant"
+   },
+   "canalVenta": {
+      "__id": 2,
+      "nombreCanalVenta": "Toys"
+   },
+   "billNumber": "AA000000002",
+   "sucursal": "Stracke and Sons",
+   "vendedor": "Candelario Prohaska",
+   "apv": {
+      "__id": 2,
+      "vendedor": "Candelario Prohaska"
+   },
+   "at": "2019-04-06T14:37:49.661Z",
+   "status": "INVOICED",
+   "detail": [
+      {
+         "item": {
+            "__id": 2,
+            "__updatedAt": "2020-02-11T21:44:17.917Z",
+            "__createdAt": "2020-02-11T21:44:17.917Z",
+            "kind": "ACCESORY",
+            "serialNumber": "xzoc21oqg0",
+            "inventoryDate": "2019-04-06T14:37:49.661Z",
+            "brand": "NISSAN",
+            "model": "Small Wooden Keyboard",
+            "descriptionModel": "Fantastic Frozen Pizza",
+            "color": "2019",
+            "price": 697,
+            "cost": 1133.5,
+            "subsidy": 9842,
+            "ivaImporte": 125.92,
+            "utilidad": -2425.5,
+            "importeTotal": -2425.5,
+            "creditNote": 0,
+            "houseCredit": 4872,
+            "incentive": 0,
+            "caracteristicasAdicionales": [
+               {
+                  "__id": 6,
+                  "nombreCaracteristica": "CARLINE",
+                  "valorCaracteristica": "Small Wooden Keyboard"
+               },
+               {
+                  "__id": 7,
+                  "nombreCaracteristica": "COLORINTERIOR",
+                  "valorCaracteristica": "2019"
+               },
+               {
+                  "__id": 8,
+                  "nombreCaracteristica": "MODELOAÑO",
+                  "valorCaracteristica": "Refined Soft Chips"
+               },
+               {
+                  "__id": 9,
+                  "nombreCaracteristica": "COLOREXTERIOR",
+                  "valorCaracteristica": "2019"
+               },
+               {
+                  "__id": 10,
+                  "nombreCaracteristica": "UNIDADDESCRIPCION",
+                  "valorCaracteristica": "Refined Plastic Shirt"
+               }
+            ]
+         },
+         "times": 7
+      }
+   ]
+}

@@ -1,0 +1,77 @@
+{
+   "__id": 44,
+   "__updatedAt": "2020-02-11T21:44:16.156Z",
+   "__createdAt": "2020-02-11T21:44:16.156Z",
+   "__fechaLiquidacionFactura": null,
+   "__fechaCancelacion": null,
+   "cliente": {
+      "__id": 44,
+      "razonSocial": "Kyla Crooks"
+   },
+   "canalVenta": {
+      "__id": 44,
+      "nombreCanalVenta": "Movies"
+   },
+   "billNumber": "AA000000044",
+   "sucursal": "Schmitt - Gerhold",
+   "vendedor": "Miguel Hermiston",
+   "apv": {
+      "__id": 44,
+      "vendedor": "Miguel Hermiston"
+   },
+   "at": "2019-12-27T23:32:35.295Z",
+   "status": "INVOICED",
+   "detail": [
+      {
+         "item": {
+            "__id": 44,
+            "__updatedAt": "2020-02-11T21:44:18.313Z",
+            "__createdAt": "2020-02-11T21:44:18.313Z",
+            "kind": "ACCESORY",
+            "serialNumber": "2d34brzy7k",
+            "inventoryDate": "2019-12-27T23:32:35.295Z",
+            "brand": "NISSAN",
+            "model": "Handmade Frozen Tuna",
+            "descriptionModel": "Fantastic Frozen Bacon",
+            "color": "2019",
+            "price": 640,
+            "cost": 470.5,
+            "subsidy": 2536,
+            "ivaImporte": 99.04,
+            "utilidad": 148.5,
+            "importeTotal": 148.5,
+            "creditNote": 308,
+            "houseCredit": 0,
+            "incentive": 0,
+            "caracteristicasAdicionales": [
+               {
+                  "__id": 216,
+                  "nombreCaracteristica": "CARLINE",
+                  "valorCaracteristica": "Handmade Frozen Tuna"
+               },
+               {
+                  "__id": 217,
+                  "nombreCaracteristica": "COLORINTERIOR",
+                  "valorCaracteristica": "2019"
+               },
+               {
+                  "__id": 218,
+                  "nombreCaracteristica": "MODELOAÑO",
+                  "valorCaracteristica": "Small Fresh Ball"
+               },
+               {
+                  "__id": 219,
+                  "nombreCaracteristica": "COLOREXTERIOR",
+                  "valorCaracteristica": "2019"
+               },
+               {
+                  "__id": 220,
+                  "nombreCaracteristica": "UNIDADDESCRIPCION",
+                  "valorCaracteristica": "2019"
+               }
+            ]
+         },
+         "times": 1
+      }
+   ]
+}

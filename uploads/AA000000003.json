@@ -1,0 +1,77 @@
+{
+   "__id": 3,
+   "__updatedAt": "2020-02-11T21:44:16.153Z",
+   "__createdAt": "2020-02-11T21:44:16.153Z",
+   "__fechaLiquidacionFactura": null,
+   "__fechaCancelacion": null,
+   "cliente": {
+      "__id": 3,
+      "razonSocial": "Halle Schuster"
+   },
+   "canalVenta": {
+      "__id": 3,
+      "nombreCanalVenta": "Toys"
+   },
+   "billNumber": "AA000000003",
+   "sucursal": "McDermott, Langworth and Von",
+   "vendedor": "Ramiro Durgan",
+   "apv": {
+      "__id": 3,
+      "vendedor": "Ramiro Durgan"
+   },
+   "at": "2019-07-18T20:21:31.115Z",
+   "status": "INVOICED",
+   "detail": [
+      {
+         "item": {
+            "__id": 3,
+            "__updatedAt": "2020-02-11T21:44:17.917Z",
+            "__createdAt": "2020-02-11T21:44:17.917Z",
+            "kind": "SERVICE",
+            "serialNumber": "ba69ve06y2",
+            "inventoryDate": "2019-07-18T20:21:31.115Z",
+            "brand": "NISSAN",
+            "model": "Gorgeous Wooden Shoes",
+            "descriptionModel": "Handmade Metal Chips",
+            "color": "yellow",
+            "price": 371,
+            "cost": 276.5,
+            "subsidy": 7452,
+            "ivaImporte": 61.6,
+            "utilidad": 759.5,
+            "importeTotal": 759.5,
+            "creditNote": 4629,
+            "houseCredit": 0,
+            "incentive": 0,
+            "caracteristicasAdicionales": [
+               {
+                  "__id": 11,
+                  "nombreCaracteristica": "CARLINE",
+                  "valorCaracteristica": "Gorgeous Wooden Shoes"
+               },
+               {
+                  "__id": 12,
+                  "nombreCaracteristica": "COLORINTERIOR",
+                  "valorCaracteristica": "yellow"
+               },
+               {
+                  "__id": 13,
+                  "nombreCaracteristica": "MODELOAÑO",
+                  "valorCaracteristica": "olive"
+               },
+               {
+                  "__id": 14,
+                  "nombreCaracteristica": "COLOREXTERIOR",
+                  "valorCaracteristica": "Rustic Plastic Towels"
+               },
+               {
+                  "__id": 15,
+                  "nombreCaracteristica": "UNIDADDESCRIPCION",
+                  "valorCaracteristica": "Awesome Frozen Gloves"
+               }
+            ]
+         },
+         "times": 7
+      }
+   ]
+}

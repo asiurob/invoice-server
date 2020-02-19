@@ -1,0 +1,77 @@
+{
+   "__id": 1,
+   "__updatedAt": "2020-02-11T21:44:16.152Z",
+   "__createdAt": "2020-02-11T21:44:16.152Z",
+   "__fechaLiquidacionFactura": null,
+   "__fechaCancelacion": null,
+   "cliente": {
+      "__id": 1,
+      "razonSocial": "Mrs. Conor Baumbach"
+   },
+   "canalVenta": {
+      "__id": 1,
+      "nombreCanalVenta": "Garden"
+   },
+   "billNumber": "AA000000001",
+   "sucursal": "Fay - Mayer",
+   "vendedor": "Hans Grimes",
+   "apv": {
+      "__id": 1,
+      "vendedor": "Hans Grimes"
+   },
+   "at": "2019-08-31T11:55:37.432Z",
+   "status": "INVOICED",
+   "detail": [
+      {
+         "item": {
+            "__id": 1,
+            "__updatedAt": "2020-02-11T21:44:17.908Z",
+            "__createdAt": "2020-02-11T21:44:17.908Z",
+            "kind": "NEW_CAR",
+            "serialNumber": "dmirlgm59n",
+            "inventoryDate": "2019-08-31T11:55:37.432Z",
+            "brand": "NISSAN",
+            "model": "blue",
+            "descriptionModel": "Awesome Plastic Pants",
+            "color": "2019",
+            "price": 384,
+            "cost": 672.5,
+            "subsidy": 0,
+            "ivaImporte": 95.2,
+            "utilidad": -697.5,
+            "importeTotal": -697.5,
+            "creditNote": 0,
+            "houseCredit": 1884,
+            "incentive": 7043,
+            "caracteristicasAdicionales": [
+               {
+                  "__id": 1,
+                  "nombreCaracteristica": "CARLINE",
+                  "valorCaracteristica": "blue"
+               },
+               {
+                  "__id": 2,
+                  "nombreCaracteristica": "COLORINTERIOR",
+                  "valorCaracteristica": "2019"
+               },
+               {
+                  "__id": 3,
+                  "nombreCaracteristica": "MODELOAÑO",
+                  "valorCaracteristica": "indigo"
+               },
+               {
+                  "__id": 4,
+                  "nombreCaracteristica": "COLOREXTERIOR",
+                  "valorCaracteristica": "orchid"
+               },
+               {
+                  "__id": 5,
+                  "nombreCaracteristica": "UNIDADDESCRIPCION",
+                  "valorCaracteristica": "ivory"
+               }
+            ]
+         },
+         "times": 9
+      }
+   ]
+}

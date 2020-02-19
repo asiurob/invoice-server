@@ -1,6 +1,6 @@
 //Dependencias
 import mongo from 'mongoose'
-import { DBPORT, DB, DBHOST } from "../global/environment"
+import { DB, DBPORT, DBHOST } from "../global/environment"
 
 export default class Database {
 
@@ -10,8 +10,6 @@ export default class Database {
     private dbHost: string
     private uri: string
 
-    //Inicializar variables y métodos
-    //Implementación de patrón Singleton
     private constructor () {
         this.db = DB
         this.dbPort = DBPORT
@@ -19,16 +17,15 @@ export default class Database {
         this.uri = `${ this.dbHost }:${ this.dbPort }/${ this.db }`
     }
 
-    //Regresar la instancia corriendo patrón Singleton
     public static get instance() {
         return this._instance || ( this._instance = new Database() )
     }
 
     public connect () {
-        mongo.connect( this.uri, ( err: any ) => {
+        mongo.connect( this.uri, { useNewUrlParser: true, useCreateIndex: true }, ( err: any ) => {
             if( err ) return console.log( err.message ) 
 
-            console.log( `Database connected to ${ this.db }` )
+            console.log( `Conectado a la base ${ this.db }` )
         })
     }
 }
